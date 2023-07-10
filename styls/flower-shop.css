@@ -11,6 +11,14 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    
+    }
 
 /* header related sytes */
 .header{
@@ -52,7 +60,4 @@ line-height: 30px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 1539px;
-}
-.section-title{
-
 }
