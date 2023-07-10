@@ -15,24 +15,44 @@ body{
 /* header related sytes */
 .header{
     background-color:rgba(229, 84, 115, 0.10);
-    position: relative;  
-    top: 0;
+    margin-top: 0px;
 }
 .banner{
-    padding: 197px 972px 365px 240px; ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner-title{
-
 color: #272727;
 font-size: 80px;
 font-weight: 800;
+margin-right: 97px;
+width: 708px;
 }
 .banner-description{
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+}
+.banner-image{
+    width: 635px;
+    
+}
+
+
+/* main section styles */
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 1539px;
+}
+.section-title{
+
 }
