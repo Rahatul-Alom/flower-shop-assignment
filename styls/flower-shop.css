@@ -1,10 +1,11 @@
 /* common shared styles */
-*{
-    margin: 0;   
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: lato;
+  width: 1500px;
 }
 .btn-primary {
   padding: 20px 40px;
@@ -31,7 +32,7 @@ body {
   line-height: 30px;
 }
 .text-primary {
-  color:#e55473; 
+  color: #e55473;
 }
 
 /* header related sytes */
@@ -113,12 +114,11 @@ body {
 .featured-img-text {
   color: #272727;
   text-align: center;
-  font-family: Lato;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
-  text-decoration-line: underline;
+  text-decoration: underline;
   margin-top: 15px;
 }
 /* hot deal section styles */
@@ -202,7 +202,6 @@ body {
 
 /* footer related styles */
 .footer {
-  width: auto;
   height: 449px;
   margin-top: 128px;
   background-color: #111010;
