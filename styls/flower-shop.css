@@ -1,7 +1,6 @@
 /* common shared styles */
 body {
   font-family: lato;
-
 }
 .btn-primary {
   padding: 20px 43px;
@@ -19,31 +18,27 @@ body {
   line-height: normal;
   text-align: center;
 }
-.section-description{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 300;
-line-height: 30px;
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 30px;
 }
 
 /* header related sytes */
 .header {
   background-color: rgba(229, 84, 115, 0.1);
- 
-
 }
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
-  
+  align-items: center;
 }
 .banner-content {
   max-width: 500px;
-
 }
 .banner-title {
   color: #272727;
@@ -100,13 +95,44 @@ line-height: 30px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.1);
   padding: 30px 30px 0px 150px;
-  display: flex;
   justify-content: space-between;
+  display: flex;
+
   /* align-items: center; */
   margin-top: 250px;
   padding: 150px 200px 80px 300px;
-
 }
-.sing-up{
-    text-align: center;
+.sing-up {
+  text-align: center;
+}
+
+.instagram-img {
+  gap: 24px;
+  justify-content: center;
+  display: flex;
+  margin-top: 48px;
+}
+
+.latest-deals {
+  width: 1440px;
+  height: 449px;
+  margin-top: 228px;
+  background-image: url(../images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.footer {
+  width: 1922px;
+  height: 449px;
+  margin-top: 128px;
+  background-color: #111010;
+}
+.footer-title{ margin-top: 128px;
+color: #E55473;
+font-size: 48px;
+font-weight: 800;
+line-height: normal;
+text-align: center;
 }
