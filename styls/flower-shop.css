@@ -31,7 +31,7 @@ body {
   line-height: 30px;
 }
 .text-primary {
-  color: #fff;
+  color:#e55473; 
 }
 
 /* header related sytes */
@@ -210,7 +210,7 @@ body {
 .footer-title {
   margin-top: 128px;
   padding-top: 128px;
-  color: #e55473;
+  color: #fff;
   font-size: 48px;
   font-weight: 800;
   line-height: normal;
