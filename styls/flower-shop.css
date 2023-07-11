@@ -25,8 +25,8 @@ body {
   font-weight: 400px;
   line-height: 30px;
 }
-.text-primary{
-    color: #fff;
+.text-primary {
+  color: #fff;
 }
 
 /* header related sytes */
@@ -37,7 +37,6 @@ body {
   padding: 30px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
 .banner-content {
@@ -61,6 +60,7 @@ body {
 }
 
 /* main section styles */
+
 /* Bonus Section Our Featured Flowers Styles */
 .featured-flowers {
   margin-top: 178px;
@@ -90,26 +90,59 @@ body {
   width: 464px;
   height: 538px;
 }
+.featured-img-1 {
+  padding: 110px 78px 0px 76px;
+}
+.featured-img-2 {
+  padding: 117px 47px 51px;
+}
+.featured-img-3 {
+  padding: 67px 75px 0px;
+}
 
 .flower-image {
   align-items: center;
+}
+.featured-img-text {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 /* hot deal section styles */
 .hot-deal {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.1);
-  padding: 30px 30px 0px 150px;
   justify-content: space-between;
   display: flex;
   margin-top: 250px;
-  padding: 150px 200px 80px 300px;
+  padding: 100px 215px 100px 190px;
+  align-items: center;
+}
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 .sing-up {
   text-align: center;
 }
 /* instagram section styles */
-.instagram{
-    margin-top: 128px;
+.instagram {
+  margin-top: 128px;
 }
 .instagram-img {
   gap: 24px;
@@ -182,11 +215,11 @@ body {
   font-weight: 400;
   line-height: 30px;
 }
-.copy{
-color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: normal;
-margin-top: 32px;
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
 }
