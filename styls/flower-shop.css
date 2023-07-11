@@ -3,7 +3,7 @@ body {
   font-family: lato;
 }
 .btn-primary {
-  padding: 20px 43px;
+  padding: 20px 40px;
   border-radius: 8px;
   background: #e55473;
   border: none;
@@ -114,25 +114,66 @@ body {
 }
 
 .latest-deals {
-  width: 1440px;
-  height: 449px;
   margin-top: 228px;
   background-image: url(../images/Rectangle\ 9.png);
   background-repeat: no-repeat;
   border-radius: 8px;
-  align-items: center;
+  background-position: center;
 }
 
+.latest-deals-content {
+  justify-content: center;
+  text-align: center;
+  padding-top: 122px;
+  padding-bottom: 121px;
+}
+#section-content {
+  margin-top: -20px;
+  padding-bottom: 45px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.email-Subscribe input[type="email"] {
+  width: 690px;
+  height: 64px;
+  border: none;
+  margin-bottom: 48px;
+  border-radius: 8px;
+  background: #fff;
+  margin-right: 16px;
+  color: rgba(39, 39, 39, 0.6);
+  padding-left: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.email-Subscribe {
+  justify-content: center;
+}
+
+/* footer related styles */
 .footer {
-  width: 1922px;
+  width: auto;
   height: 449px;
   margin-top: 128px;
   background-color: #111010;
 }
-.footer-title{ margin-top: 128px;
-color: #E55473;
-font-size: 48px;
-font-weight: 800;
-line-height: normal;
-text-align: center;
+.footer-title {
+  margin-top: 128px;
+  padding-top: 128px;
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.footer-description {
+  margin-top: -24px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
