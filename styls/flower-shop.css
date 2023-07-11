@@ -21,6 +21,7 @@ body {
   font-weight: 800;
   line-height: normal;
   text-align: center;
+  margin: 30px 0px 30px 0px;
 }
 .section-description {
   color: rgba(39, 39, 39, 0.6);
@@ -54,10 +55,12 @@ body {
   width: 708px;
 }
 .banner-description {
+  margin: 30px 0px 30px 0px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  width: 636px;
 }
 .banner-image {
   width: 635px;
@@ -116,11 +119,12 @@ body {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+  margin-top: 15px;
 }
 /* hot deal section styles */
 .hot-deal {
   border-radius: 8px;
-  background: rgba(229, 84, 115, 0.1);
+  background: rgba(229, 84, 115, 0.05);
   justify-content: space-between;
   display: flex;
   margin-top: 250px;
@@ -140,6 +144,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin: 30px 0px 30px 0px;
 }
 .sing-up {
   text-align: center;
@@ -170,7 +175,7 @@ body {
   padding-bottom: 121px;
 }
 #section-content {
-  margin-top: -20px;
+  margin-top: 20px;
   padding-bottom: 45px;
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -212,7 +217,7 @@ body {
   text-align: center;
 }
 .footer-description {
-  margin-top: -24px;
+  margin-top: 24px;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 18px;
